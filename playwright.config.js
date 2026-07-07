@@ -26,7 +26,6 @@ const testDir = defineBddConfig({
 
 module.exports = defineConfig({
   // testDir: './tests',
-  testDir,
   fullyParallel: true, // Run all tests in parallel
   retries: process.env.CI ? 2 : 0, // Retry twice on CI failures
   // reporter: 'html', // Generate a nice HTML report

@@ -47,3 +47,7 @@ The playwright.config.js file controls:
 
  npx playwright test tests/login.spec.js
  npx playwright test tests/login.spec.js --ui  
+
+ npx playwright test tests/test.spec.js;
+
+ npm run test:smoke
